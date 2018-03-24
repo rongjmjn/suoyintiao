@@ -13,6 +13,9 @@
 		B7E437062065EB84009AB767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E437052065EB84009AB767 /* Assets.xcassets */; };
 		B7E437092065EB84009AB767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E437072065EB84009AB767 /* LaunchScreen.storyboard */; };
 		B7E4370C2065EB84009AB767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E4370B2065EB84009AB767 /* main.m */; };
+		B7E437132065EC39009AB767 /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7E437122065EC37009AB767 /* cars.plist */; };
+		B7E437162065EC90009AB767 /* FRCarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E437152065EC90009AB767 /* FRCarItem.m */; };
+		B7E437192065EE36009AB767 /* FRCarGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E437182065EE36009AB767 /* FRCarGroupItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		B7E437082065EB84009AB767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7E4370A2065EB84009AB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7E4370B2065EB84009AB767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7E437122065EC37009AB767 /* cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars.plist; sourceTree = "<group>"; };
+		B7E437142065EC90009AB767 /* FRCarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRCarItem.h; sourceTree = "<group>"; };
+		B7E437152065EC90009AB767 /* FRCarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRCarItem.m; sourceTree = "<group>"; };
+		B7E437172065EE36009AB767 /* FRCarGroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRCarGroupItem.h; sourceTree = "<group>"; };
+		B7E437182065EE36009AB767 /* FRCarGroupItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRCarGroupItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		B7E436FB2065EB84009AB767 /* suoyintiao */ = {
 			isa = PBXGroup;
 			children = (
+				B7E437122065EC37009AB767 /* cars.plist */,
 				B7E436FC2065EB84009AB767 /* AppDelegate.h */,
 				B7E436FD2065EB84009AB767 /* AppDelegate.m */,
 				B7E436FF2065EB84009AB767 /* ViewController.h */,
@@ -67,6 +76,10 @@
 				B7E437072065EB84009AB767 /* LaunchScreen.storyboard */,
 				B7E4370A2065EB84009AB767 /* Info.plist */,
 				B7E4370B2065EB84009AB767 /* main.m */,
+				B7E437142065EC90009AB767 /* FRCarItem.h */,
+				B7E437152065EC90009AB767 /* FRCarItem.m */,
+				B7E437172065EE36009AB767 /* FRCarGroupItem.h */,
+				B7E437182065EE36009AB767 /* FRCarGroupItem.m */,
 			);
 			path = suoyintiao;
 			sourceTree = "<group>";
@@ -97,6 +110,7 @@
 		B7E436F12065EB84009AB767 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FR;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = FanrongZeng;
 				TargetAttributes = {
@@ -130,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E437092065EB84009AB767 /* LaunchScreen.storyboard in Resources */,
+				B7E437132065EC39009AB767 /* cars.plist in Resources */,
 				B7E437062065EB84009AB767 /* Assets.xcassets in Resources */,
 				B7E437042065EB84009AB767 /* Main.storyboard in Resources */,
 			);
@@ -142,9 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E437192065EE36009AB767 /* FRCarGroupItem.m in Sources */,
 				B7E437012065EB84009AB767 /* ViewController.m in Sources */,
 				B7E4370C2065EB84009AB767 /* main.m in Sources */,
 				B7E436FE2065EB84009AB767 /* AppDelegate.m in Sources */,
+				B7E437162065EC90009AB767 /* FRCarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
